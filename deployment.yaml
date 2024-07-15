@@ -6,7 +6,7 @@ metadata:
 spec:
   podSelector: 
     matchLabels:
-      role: my-role
+      app: token
   securityGroups:
     groupIds:
       - sg-0152adda3b42025bb
