@@ -25,11 +25,11 @@ spec:
         image: 648911607072.dkr.ecr.ap-northeast-2.amazonaws.com/token:latest
         resources:
           requests:
-            cpu: 100m
-            memory: 100Mi
+            cpu: 400m
+            memory: 700Mi
           limits:
-            cpu: 100m
-            memory: 100Mi
+            cpu: 400m
+            memory: 700Mi
         livenessProbe:
           tcpSocket:
             port: 8080
